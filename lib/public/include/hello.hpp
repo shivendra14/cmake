@@ -1,5 +1,7 @@
 #pragma once
+#include "ImportExportMacros.hpp"
+
 namespace Hello
 {
-    void SayHello();
+    LIB_IMP_EXP void SayHello();
 }
