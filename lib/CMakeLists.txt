@@ -1,6 +1,7 @@
 # use STATIC in place of SHARED to work with static libs
 add_library(
     HelloLib SHARED
+    public/include/Config.hpp
     public/include/ImportExportMacros.hpp
     public/include/hello.hpp
     source/hello.cpp
